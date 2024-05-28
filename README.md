@@ -1,4 +1,4 @@
-# Check-collection-Cobranza-de-cheques
+# Check_collection-Cobranza_de_cheques
 
 ## Table of Contents - Tabla de Contenidos
 
