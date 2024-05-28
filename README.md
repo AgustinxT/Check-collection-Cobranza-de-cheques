@@ -1,4 +1,15 @@
 # Check-collection-Cobranza-de-cheques
+
+## Table of Contents - Tabla de Contenidos
+
+- [Project Overview](#project-overview)
+- [Introduction](#introduction)
+
+
+
+
+## Project Overview
+
 Demostration of how to register and automate the check collection process in a very simple way // Demostración de como registrar y automatizar el proceso de cobranzas de cheques de manera muy sencilla.
 
 Aclaración: para asegurar la confidencialidad de los datos de la empresa se tomaron las siguientes determinaciones 
@@ -9,10 +20,9 @@ Aclaración: para asegurar la confidencialidad de los datos de la empresa se tom
 
 Clarification: To ensure the confidentiality of the company's data, the following measures have been taken:
 
-ID Assignment: Each supplier has been assigned a unique ID.
-Bank Statement Protection: Information from bank statements is not disclosed.
-Company Anonymity: The company's name is kept anonymous.
-
+* ID Assignment: Each supplier has been assigned a unique ID.
+* Bank Statement Protection: Information from bank statements is not disclosed.
+* Company Anonymity: The company's name is kept anonymous.
 
 
 ## Introduction
