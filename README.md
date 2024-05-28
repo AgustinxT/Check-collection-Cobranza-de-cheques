@@ -4,6 +4,13 @@
 
 - [Project Overview](#project-overview)
 - [Introduction](#introduction)
+- [Introduccion](#introduccion)
+- [Data source-Fuente de datos](#data-source-fuente-de-datos)
+- [Tool-Excel](#tool-excel)
+- [Funcionamiento del archivo](#funcionamiento-del-archivo)
+- [File Operation](#file-operation)
+- [Conclusiones](#conclusiones)
+- [Insights](#insights)
 
 
 
@@ -44,7 +51,7 @@ For expense forecasting, in the "2. No Cobrado" sheet, all checks that meet the 
 
 In the case of new checks being issued, simply enter their data in the spreadsheet, copy and paste the formulas already written in the cells above, and the rest of the process is automatic.
 
-## Introducción
+## Introduccion
 
 Una pequeña empresa constructora, con 45 empleados y en pleno crecimiento, utiliza cheques físicos y electrónicos (e-cheques) para la mayoría de sus pagos a proveedores. Se enfrenta a flujos de ingresos irregulares, ya que los ingresos dependen del avance quincenal de las obras en construcción. Sin embargo, aproximadamente el 50% de sus gastos son regulares, como los salarios, servicios básicos y pagos de tarjetas de crédito corporativas, que tienen fechas de vencimiento fijas. Esto resalta la necesidad crítica de un estricto control de la liquidez y del capital de trabajo. La gestión adecuada de estos recursos es fundamental para garantizar la estabilidad financiera de la empresa, cumplir con las obligaciones financieras de manera oportuna y maximizar los rendimientos de los fondos ociosos cuando sea posible.
 
@@ -64,14 +71,14 @@ Para la previsión de gastos, en la hoja "2. No Cobrados", se suman todos los ch
 
 En el caso de que se hayan emitido cheques nuevos, basta con cargar sus datos en la planilla, copiar y pegar las fórmulas ya escritas en las celdas de arriba y el resto del proceso es automático.
 
-## Data source / Fuente de datos
+## Data source-Fuente de datos
 
 For this project, primary data is used, obtained directly from the check duplicates, which are created with each issuance and then loaded into the file. Subsequently, from the bank statements of each month of the year 2023 in PDF format, the information on the date the checks were debited from the account is extracted. This was done using Power Query and the data was combined using the append function.
 
 Para este proyecto, se emplean datos de tipo primario, obtenidos directamente de los duplicados de cheques, los cuales se generan con cada emisión para luego cargarlos en el archivo. 
 Posteriormente, a partir de los resúmenes bancarios de cada mes del año 2023, en formato PDF, se extrae la información de la fecha en que los cheques fueron debitados de la cuenta. Esto se realizó con Power Query y se combinaron los datos utilizando la función de anexar (append).
 
-## Tool : Excel
+## Tool-Excel
 
 Funciones utilizadas: 
 * nested if statements  / condicionales SI anidados
