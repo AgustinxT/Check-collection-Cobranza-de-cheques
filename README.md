@@ -1,4 +1,4 @@
-![image](https://github.com/AgustinxT/Check-collection-Cobranza-de-cheques/assets/130587628/47e4cb8a-a3e3-4300-80b1-ad918c8db07d)# Check-collection-Cobranza-de-cheques
+# Check-collection-Cobranza-de-cheques
 Demostration of how to register and automate the check collection process in a very simple way // Demostración de como registrar y automatizar el proceso de cobranzas de cheques de manera muy sencilla.
 
 Aclaración: para asegurar la confidencialidad de los datos de la empresa se tomaron las siguientes determinaciones 
@@ -69,7 +69,7 @@ Funciones utilizadas:
 * sum.if  / sumar si
 * date dif / sifecha 
 * data validation  / validación de datos
-* vlookup-index&match   / buscarv -indice+coincidir
+* vlookup-index&match   / buscarv or indice&coincidir
 
 ## Funcionamiento del archivo
 
@@ -81,6 +81,9 @@ La primera, consta de una tabla dividida en data entry y formulas, ya que la dat
 Los campos de formulas se construyen de la siguiente manera:  
 * Cobrado el día: se utilizó un index-match para cruzar el ID cheque con la fecha en la que fue cobrado
 * Clasificador: al hacer un histograma del monto de los cheques (ver en la hoja "3.Pivot table"), se observó que la mayoría de los cheques estan debajo del promedio (288 aproximadamente), por lo que se clasificó a cada cheque en 3 rangos: menor a 288, mayor a 288 & menor a 500, mayor a 500.
+
+![image](https://github.com/AgustinxT/Check-collection-Cobranza-de-cheques/assets/130587628/47e4cb8a-a3e3-4300-80b1-ad918c8db07d)
+
 * Término 33 días: si el cheque figura como No cobrado por mas de 33 dias, se lo considera fuera de termino, y queda excluido.
 * Tipo de banco: por si el cliente tiene mas de una cuenta bancaria.
 * Estado: Validacion de datos para marcar si el cheque fue cobrado o no (esto forma parte del control diario de los saldos).
