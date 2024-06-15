@@ -102,7 +102,7 @@ Los campos de formulas se construyen de la siguiente manera:
 ![image](https://github.com/AgustinxT/Check-collection-Cobranza-de-cheques/assets/130587628/47e4cb8a-a3e3-4300-80b1-ad918c8db07d)
 
 * Término 33 días: si el cheque figura como No cobrado por mas de 33 dias, se lo considera fuera de termino, y queda excluido.
-* Tipo de banco: por si el cliente tiene mas de una cuenta bancaria.
+* Tipo de banco: en caso de que la empresa tenga cuenta en mas de una institucion bancaria.
 * Estado: Validacion de datos para marcar si el cheque fue cobrado o no (esto forma parte del control diario de los saldos).
 * Day-dif: al igual que clasificador, es una formula para el posterior análisis, indica cuanto tiempo transcurrió entre el pago y el vencimiento del cheque.
 
@@ -118,8 +118,8 @@ Con este sistema, la empresa controla los saldos a primera hora de la mañana, d
 
 Finalmente, aquí se presenta un análisis a partir de tablas dinámicas, obteniendo dos indicadores muy relevantes:
 
-1. Suma total por cliente: Determina la importancia de cada proveedor, lo cual puede ser útil para saber cuánto se compra a cada uno y a cuáles se podría comprar más, por ejemplo.
-2. Periodo medio de cobro de los cheques por clasificador y cliente: Muestra cuánto tiempo, en promedio, tardan en cobrarse los cheques después de su vencimiento, segmentados según clasificador y proveedor. Esta información es muy útil porque, en épocas en las que se busca mantener el saldo justo y necesario en la cuenta bancaria, se puede recurrir a la probabilidad para calcular un saldo estimado, de manera que no se pierda la oportunidad de invertir saldos ociosos.
+1. Suma total por proveedor: Determina la importancia de cada proveedor, lo cual puede ser útil para saber cuánto se compra a cada uno y a cuáles se podría comprar más, por ejemplo.
+2. Periodo medio de cobro de los cheques por clasificador y proveedor: Muestra cuánto tiempo, en promedio, tardan en cobrarse los cheques después de su vencimiento, segmentados según clasificador y proveedor. Esta información es muy útil porque, en épocas en las que se busca mantener el saldo justo y necesario en la cuenta bancaria, se puede recurrir a la probabilidad para calcular un saldo estimado, de manera que no se pierda la oportunidad de invertir saldos ociosos.
 
 ## File Operation
 The spreadsheet consists of 3 pages.
