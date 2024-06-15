@@ -1,4 +1,5 @@
-# Check_collection-Cobranza_de_cheques
+# Sistema para monitoreo de cheques - System for check control
+
 
 ## Table of Contents - Tabla de Contenidos
 
@@ -17,7 +18,8 @@
 
 ## Project Overview
 
-Demostration of how to register and automate the check collection process in a very simple way // Demostración de como registrar y automatizar el proceso de cobranzas de cheques de manera muy sencilla.
+Demostration of how to register and automate the check collection process in a very simple way // 
+Demostración de como registrar y automatizar el proceso de cobranzas de cheques de manera muy sencilla.
 
 Aclaración: para asegurar la confidencialidad de los datos de la empresa se tomaron las siguientes determinaciones 
 
